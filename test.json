@@ -1,0 +1,18 @@
+{
+    "pretrained_perturbation": "pert_FOUND.pt",
+    "test_models": ["hisd", "attgan", "stargan", "attentiongan"],
+    "max_samples": 1000,
+    "epsilon": 0.05,
+    "data_settings": {
+        "data_path": "D:/hyy/CelebA/Img/img_align_celeba",
+        "attr_path": "D:/hyy/CelebA/Anno/list_attr_celeba.txt",
+        "img_size": 256,
+        "batch_size": 1
+    },
+    "output_settings": {
+        "log_file": "test_results.txt",
+        "save_images": true,
+        "output_dir": "./test_outputs",
+        "evaluate_fid": true
+    }
+}
